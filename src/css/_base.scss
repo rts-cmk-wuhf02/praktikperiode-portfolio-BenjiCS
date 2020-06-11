@@ -7,14 +7,10 @@ body {
 }
 
 .main {
-	// height: 760px;
-}
-
-.mainIndex__BG {
-	background: url("/assets/images/background/top-background.jpg");
+	background: $bg-Color;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-	height: 100vh;
+	height: 200vh;
     width: 100%;
 }
