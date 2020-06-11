@@ -3,6 +3,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  .desktop__nav {
+    display: none;
+  }
+  
   .mobile__nav {
     overflow: hidden;
     background: #626262;
