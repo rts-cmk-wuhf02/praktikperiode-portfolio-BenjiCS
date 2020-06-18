@@ -1,1 +1,16 @@
 @import "base";
+@import "profil";
+
+
+.main {
+  background: #754EF9;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main__overlay {
+  background: white;
+  width: 65vw;
+  height: 98vh;
+  float: right;
+}
