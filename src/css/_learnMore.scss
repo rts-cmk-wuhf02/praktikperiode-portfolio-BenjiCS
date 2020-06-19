@@ -1,0 +1,36 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.cards__card {
+  margin: 20px 10px;
+  width: 280px;
+  box-shadow: 0px 0px 20px 0px rgba(202, 202, 202, 0.75);
+}
+
+.card__icon {
+  height: 60px;
+  display: block;
+  margin: 60px auto;
+}
+
+.card__title {
+  text-align: center;
+}
+
+.card__desc {
+  text-align: center;
+  color: #202020;
+  margin: 0 40px;
+}
+
+.card__learnMore {
+  display: block;
+  margin: 60px auto;
+  background: #754ef9;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+}
