@@ -1,0 +1,39 @@
+.projects {
+  text-align: center;
+}
+
+.projects__subTitle {
+  color: #333333;
+}
+
+.projects-imageContaner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 250px;
+}
+
+.projects__image-contaner {
+  position: relative;
+  margin: 20px;
+}
+
+.image-content {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  background: #764ef9c5;
+  background-size: cover;
+  height: 375px;
+  transition: 0.5s ease;
+}
+
+.projects__image-contaner:hover .image-content {
+  opacity: 1;
+}
+
+.image__website {
+  height: 375px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  min-width: 180px;
+}
