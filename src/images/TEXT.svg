@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="456" height="145" viewBox="0 0 456 145">
+  <defs>
+    <filter id="Rectangle_5" x="148" y="45" width="308" height="32" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="TEXT" transform="translate(-755 -356)">
+    <g transform="matrix(1, 0, 0, 1, 755, 356)" filter="url(#Rectangle_5)">
+      <rect id="Rectangle_5-2" data-name="Rectangle 5" width="290" height="14" transform="translate(157 51)" fill="#fff"/>
+    </g>
+    <text id="MY_WORK" data-name="MY WORK" transform="translate(755 450)" fill="#754ef9" font-size="100" font-family="TrebuchetMS-Bold, Trebuchet MS" font-weight="700"><tspan x="0" y="0" fill="#000">MY</tspan><tspan y="0" xml:space="preserve" fill="#754ef9"> WORK</tspan></text>
+    <text id="I_am_a_Web_Developer" data-name="I am a Web Developer" transform="translate(842 494)" fill="#101010" font-size="25" font-family="OpenSans, Open Sans" letter-spacing="0.01em"><tspan x="0" y="0">I am a Web Developer</tspan></text>
+    <path id="Path_4" data-name="Path 4" d="M.017,0H42.928a22.267,22.267,0,0,0-1.271,6.875,24.7,24.7,0,0,0,1.275,7.109H-.136Z" transform="translate(1000.736 407)" fill="#fff"/>
+  </g>
+</svg>

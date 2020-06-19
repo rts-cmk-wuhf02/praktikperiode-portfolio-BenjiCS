@@ -25,3 +25,32 @@
     width: 28.5rem;
     height: 9.0625rem;
 }
+
+.followMe {
+  position: absolute;
+  color: #754EF9;
+  right: -90px;
+  top: 21rem;
+  display: flex;
+  transform: rotate(90deg);
+  margin: 0;
+  padding: 0;
+}
+
+.followMe-line {
+  background: #754EF9;
+  margin: 9px 15px;
+  width: 50px;
+  height: 1px;
+}
+
+.followMe-text {
+  margin: 0;
+  padding: 0;
+}
+
+.followMe-icon {
+  transform: rotate(-90deg);
+  height: 20px;
+  margin: 5px 0;
+}
